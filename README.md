@@ -5,6 +5,7 @@ Most advanced free drug selling resource
 - Reputation system
 - Exploit Protection
 - Highly Configurable
+- Police Dispatching
 - 100% Optimized
 - Supports QB & OX Target & markers
 - Supports ESX, QBCore, Qbox, Ox Core

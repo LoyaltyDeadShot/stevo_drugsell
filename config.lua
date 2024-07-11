@@ -4,6 +4,7 @@ return {
     money_item = 'money',
 
     police = {
+        callpoliceondeny = false, -- If police should be called if the ped runs away (You need to add your dispatch) in resource/client.lua - police_dispatch()
         required = 1, -- Amount of cops required to sell drugs, set to false for no requirement.
         multi = 0.05, -- Multiplier applied to sale price per officer on.
         job = 'police', -- Police Job name
@@ -11,7 +12,7 @@ return {
     
 
     drugs = { -- base_price = Base price for 1 drug : maxsale = max amount of items that can be sold at once : rep_sale = reputation received from sale of drug.
-        ['meth'] = {base_price = 200, max_sale = 2, rep_sale = 2},
+        ['weed'] = {base_price = 200, max_sale = 2, rep_sale = 2},
         ['weed_brick'] = {base_price = 100, max_sale = 2, rep_sale = 1},
     },  
 
