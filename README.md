@@ -17,3 +17,9 @@ Documentation: https://docs.stevoscripts.com/free-scripts/stevo_drugsell
 Discord: https://discord.gg/stevoscripts
 <br>
 Website: https://www.stevoscripts.com
+
+Dependencies:
+
+- [stevo_lib](https://github.com/stevoscriptss/stevo_lib)
+- [ox_inventory](https://github.com/overextended/ox_inventory/releases/tag/v2.40.2)
+- [oxmysql](https://github.com/overextended/oxmysql/releases)
