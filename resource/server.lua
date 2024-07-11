@@ -17,7 +17,7 @@ local Config = lib.require('config')
 local stevo_lib = exports['stevo_lib']:import()
 
 function get_reputation(source)
-    local identifier = stevo_lib.getIdentifier(source)
+    local identifier = stevo_lib.GetIdentifier(source)
 
     local row = MySQL.single.await('SELECT `rep` FROM `stevo_drugsell_rep` WHERE `owner` = ? LIMIT 1', {
         identifier
@@ -34,7 +34,7 @@ function get_reputation(source)
 end
 
 function set_reputation(source, rep)
-    local identifier = stevo_lib.getIdentifier(source)
+    local identifier = stevo_lib.GetIdentifier(source)
 
     local row = MySQL.single.await('SELECT `rep` FROM `stevo_drugsell_rep` WHERE `owner` = ? LIMIT 1', {
         identifier
@@ -76,7 +76,7 @@ lib.callback.register('stevo_drugsell:sale', function(source, data)
     local police_multi = 0
 
     if Config.police.require then 
-        local police_count = stevo_lib.getJobCount(Config.police.job) 
+        local police_count = stevo_lib.GetJobCount(Config.police.job) 
 
         if police_count < Config.police.required then return false end
 
@@ -106,7 +106,7 @@ lib.callback.register('stevo_drugsell:sale', function(source, data)
 end)
 
 lib.callback.register('stevo_drugsell:getReputation', function(source)
-    local name = stevo_lib.getName(source)
+    local name = stevo_lib.GetName(source)
     local rep = get_reputation(source)
     return rep, name
 end)
