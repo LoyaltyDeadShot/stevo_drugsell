@@ -10,7 +10,7 @@ Most advanced free drug selling resource
 - Supports QB & OX Target & markers
 - Supports ESX, QBCore, Qbox, Ox Core
 
-Preview: https://youtu.be/rwDRBNwxC-s
+Preview: https://youtu.be/nmMr3Y0QKXw?si=sY0talBtUiRlEyOd
 <br>
 Documentation: https://docs.stevoscripts.com/free-scripts/stevo_drugsell
 <br>
