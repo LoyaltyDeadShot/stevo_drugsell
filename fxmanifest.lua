@@ -4,7 +4,7 @@ game 'gta5'
 
 author 'StevoScripts | steve'
 description 'Most advanced free drug selling resource'
-version '1.0.0'
+version '1.0.1'
 
 shared_scripts {
   'config.lua',
