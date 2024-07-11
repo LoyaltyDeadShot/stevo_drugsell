@@ -1,4 +1,4 @@
-## stevo_drugsell - 1.0.0
+# stevo_drugsell - 1.0.0
 Most advanced free drug selling resource
 
 
@@ -18,7 +18,7 @@ Discord: https://discord.gg/stevoscripts
 <br>
 Website: https://www.stevoscripts.com
 
-Dependencies:
+## Dependencies:
 
 - [stevo_lib](https://github.com/stevoscriptss/stevo_lib)
 - [ox_inventory](https://github.com/overextended/ox_inventory/releases/tag/v2.40.2)
